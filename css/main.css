@@ -1,295 +1,286 @@
 /* Start Main Rules */
 
-*{
-  box-sizing: border-box;
+* {
+    box-sizing: border-box;
 }
 
-body
-{
-  background: #DDD;
-  /* the font family is from google */
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
+body {
+    background: #DDD;
+    /* the font family is from google */
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
 }
 
-.container
-{
-  width: 940px;
-  margin: 20px auto;
-  background:white;
+.container {
+    width: 940px;
+    margin: 20px auto;
+    background: white;
 }
 
-a{text-decoration: none;}
-ul {list-style-type: none;}
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
 
 /* End  Main Rules */
 
+
 /* Start Header */
 
-Header
-{
-  /*background:#F6F6F6; */
-  background-color: #333;
-  min-height: 100px;
-   /* to fix floting problem for it floted chlidren */
-   overflow: hidden;
+Header {
+    /*background:#F6F6F6; */
+    background-color: #333;
+    min-height: 100px;
+    /* to fix floting problem for it floted chlidren */
+    overflow: hidden;
 }
+
 
 /* start logo Image */
 
-Header .logo
-{
-  width: 20%;
-  float: left;
+Header .logo {
+    width: 20%;
+    float: left;
 }
 
-Header .logo img
-{
-  width: 100px;
-  margin: 15px 0px 15px 15px;
+Header .logo img {
+    width: 100px;
+    margin: 15px 0px 15px 15px;
 }
 
 
 /* End  logo Image */
 
+
 /* start nav bar */
 
-Header nav
-{
-  width: 80%;
-  float: right;
+Header nav {
+    width: 80%;
+    float: right;
 }
 
-Header nav ul
-{
-  margin: 50px 0px  0px 0px;
-  font-weight: bold;
-
+Header nav ul {
+    margin: 50px 0px 0px 0px;
+    font-weight: bold;
 }
 
-Header nav ul li
-{
-  display: inline-block;
+Header nav ul li {
+    display: inline-block;
 }
 
-Header nav ul a{
-  text-decoration: none;
-  color: white;
-  text-align: center;
-  padding: 20px;
+Header nav ul a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
+
+
+/* Change color on hover */
 
 li a:hover:not(.active) {
-  background-color: #111;
+    background-color: black;
 }
 
 .active {
-  /*background-color: red; */
-  background-color: #4CAF50;
+    /*background-color: red; */
+    background-color: #4CAF50;
 }
+
+
+/* Change color on hover */
+
 .active:hover {
-  background-color: red;
+    background-color: red;
 }
+
 
 /* End nav bar */
 
+
 /* End Header */
+
 
 /* Start content */
 
-.content
-{
-  background:#BBB;
-  /* to fix floting problem for it floted chlidren */
-  overflow: hidden;
+.content {
+    background: #BBB;
+    /* to fix floting problem for it floted chlidren */
+    overflow: hidden;
 }
+
 
 /* sidebar */
 
-.content .sidebar
-{
-  float: right;
-  width: 30%;
-  margin-left: 1%;
+.content .sidebar {
+    float: right;
+    width: 30%;
+    margin-left: 1%;
 }
 
-.content .sidebar .widget
-{
-  width: 95%;
-  background:#FFF;
-  border: 1px solid #CCC;
-  margin: 10px auto;
+.content .sidebar .widget {
+    width: 95%;
+    background: #FFF;
+    border: 1px solid #CCC;
+    margin: 10px auto;
 }
 
-.content .sidebar .widget .title
-{
-  background:#222;
-  color:#fff;
-  padding: 5px 0;
-  text-align:center;
+.content .sidebar .widget .title {
+    background: #222;
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
 }
 
-.content .sidebar .widget .data
-{
-  text-align: center;
-  padding: 5px 0;
+.content .sidebar .widget .data {
+    text-align: center;
+    padding: 5px 0;
 }
+
 
 /* styling picutre in the side bar */
 
-.content .sidebar .widget .data img
-{
-  max-width: 80%;
-  margin: 10px auto;
+.content .sidebar .widget .data img {
+    max-width: 80%;
+    margin: 10px auto;
 }
+
 
 /* styling list and links in the side bar */
 
-.content .sidebar .sidemenu{
-  background-color: #33b5e5;
-  font-weight: bold;
+.content .sidebar .sidemenu {
+    background-color: #33b5e5;
+    font-weight: bold;
 }
 
-.content .sidebar .sidemenu a{
-  color: white;
-  text-decoration: none;
-  display: block;
+.content .sidebar .sidemenu a {
+    color: white;
+    text-decoration: none;
+    display: block;
 }
 
-.content .sidebar .widget .data ul
-{
-  text-align: left;
+.content .sidebar .widget .data ul {
+    text-align: left;
 }
 
 .content .sidebar {
-  color: white;
-  text-decoration: none;
-  display: block;
-}
-.content .sidebar .sidemenu .active
-{
-background: #90EE90;
+    color: white;
+    text-decoration: none;
+    display: block;
 }
 
-.content .sidebar .widget .data ul  li
-{
-  line-height: 200%;
-  list-style-type: none;
+.content .sidebar .sidemenu .active {
+    background: #90EE90;
 }
 
-.content .sidebar .widget .data ol  li
-{
-  list-style: decimal;
+.content .sidebar .widget .data ul li {
+    line-height: 200%;
+    list-style-type: none;
 }
+
+.content .sidebar .widget .data ol li {
+    list-style: decimal;
+}
+
 
 /* styling picutre in the side bar */
 
+
 /* End sidebar*/
+
 
 /* Start product*/
 
-.content .products
-{
-  float: left;
-  width: 69%;
-  padding-bottom: 10px;
-  min-height: 500px;
+.content .products {
+    float: left;
+    width: 69%;
+    padding-bottom: 10px;
+    min-height: 500px;
 }
 
-.content .products .Books_product
-{
-  width: 31.3%;
-  margin-left: 2%;
-  margin-top: 20px;
-  float: right;
-  background:white;  /* this for deubing i will remove  latter */
-  text-align: center;
+.content .products .Books_product {
+    width: 31.3%;
+    margin-left: 2%;
+    margin-top: 20px;
+    float: right;
+    background: white;
+    /* this for deubing i will remove  latter */
+    text-align: center;
 }
 
-.content .products .Books_product img
-{
-  max-width: 100%;
+.content .products .Books_product img {
+    max-width: 100%;
 }
+
 
 /* End products*/
 
+
 /* End content */
+
 
 /* Start Footer */
 
-footer
-{
-  background:#CCC;
-  min-height: 100px;
-  color: white;
-  text-decoration: none;
-
+footer {
+    background: #CCC;
+    min-height: 100px;
+    color: white;
+    text-decoration: none;
 }
 
 
 /* footer information */
 
-footer .footerinfo
-{
-  background:#676767;
-  overflow: hidden;
+footer .footerinfo {
+    background: #676767;
+    overflow: hidden;
 }
 
-footer .footerinfo .Box
-{
-  width: 32%;
-  float: left;
-  margin-bottom: 3px;
-  margin-right: 1%;
+footer .footerinfo .Box {
+    width: 32%;
+    float: left;
+    margin-bottom: 3px;
+    margin-right: 1%;
 }
 
-footer .footerinfo Header
-{
-  border:1px solid #555;
-  background:#222;
-  color:#fff;
-  text-align:center;
-  font-weight: bold;
+footer .footerinfo Header {
+    border: 1px solid #555;
+    background: #222;
+    color: white;
+    text-align: center;
 }
 
-
-footer .Box li{
-  list-style: none;
-}
-
-footer .footerinfo .Box a{
-  display: block;
-  background-color: #dddddd;
-   padding: 8px 16px;
+footer .footerinfo .Box a {
+    display: block;
+    background-color: #ddd;
+    padding: 8px 16px;
 }
 
 footer .footerinfo .Box a.active {
-  background-color: #4CAF50;
-  /*background: red; */
-  color: white;
+    background-color: #4CAF50;
+    /*background: red; */
+    color: white;
 }
 
 footer .footerinfo .Box a:hover:not(.active) {
-  background-color: #555;
-  color: white;
-}
-
-
-/* footer Cop right */
-
-footer .copright
-{
-  background:#333;
-  padding: 10px 0;
-  color:white;
-  text-align: center;
+    background-color: #555;
+    color: white;
 }
 
 
 /* styling Copyright */
-footer .copright{
-  font-size: 22px;
-  font-width:bold;
+
+footer .copright {
+    background: #333;
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
 }
+
 
 /* End Footer */
