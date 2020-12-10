@@ -1,5 +1,5 @@
 # books-shopping
-This Project for Building Simple online books shopping webside  just using html and css 
+This Project for Building Simple online books shopping website Layout just using Html and CSS 
 
 
 https://saddamarbaa.github.io/books-shopping/
